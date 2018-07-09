@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "ReyWeb.data.unityweb",
+"asmCodeUrl": "ReyWeb.asm.code.unityweb",
+"asmMemoryUrl": "ReyWeb.asm.memory.unityweb",
+"asmFrameworkUrl": "ReyWeb.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}

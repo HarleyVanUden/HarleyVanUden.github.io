@@ -1,0 +1,48 @@
+@font-face{
+    font-family: HeroesLegend;
+    src:url('../fonts/heroes_legend/HeroesLegend.ttf');
+}
+
+body {
+    padding-top: 55px;
+    background-color: #1d1f21;
+}
+
+p,label {
+    color: #d6d6d6;
+}
+
+h1,h2,h3 {
+    color: #ff8800;
+}
+
+h1{
+    font-family: 'HeroesLegend', sans-serif;
+    position: absolute;
+    position: relative;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.carousel-item {
+    height: 650px;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.row {
+     padding-top: 25px;
+
+}
+.card-body{
+    padding-top: 0px;
+}

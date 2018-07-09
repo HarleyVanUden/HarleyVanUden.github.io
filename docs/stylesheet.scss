@@ -1,0 +1,39 @@
+$donkergrijs: #1d1f21;
+$lichtgrijs: #d6d6d6;
+$oranje: #ff8800;
+
+body {
+    padding-top: 55px;
+    background-color: $donkergrijs;
+}
+p,label {
+    color: $lichtgrijs;
+}
+h1,h2,h3 {
+    color: $oranje;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.carousel-item {
+    height: 650px;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.row {
+     padding-top: 25px;
+
+}
+.card-body{
+    padding-top: 0px;
+}
+
